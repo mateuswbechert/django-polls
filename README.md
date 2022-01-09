@@ -21,6 +21,6 @@ To avoid any compatibilites issues, you can use ```virtualenv``` to run the proj
 
 4. Run ```python manage.py createsuperuser``` to create a admin superuser.
 
-5. Start the development server running ```python manage.py runserver``` and visit http://127.0.0.1:8000/admin/ to create a poll.
+5. Start the development server running ```python manage.py runserver``` and visit http://127.0.0.1:8000/admin/polls/question/add/ to create a poll.
 
 6. Visit http://127.0.0.1:8000/polls/ to vote.
