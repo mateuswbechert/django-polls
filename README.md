@@ -12,8 +12,7 @@ App allows visitors to vote on custom web polls. You can create questions, choic
 To avoid any compatibilites issues, you can use ```virtualenv``` to run the project and install dependencies. Read more on https://docs.python.org/3.8/library/venv.html
 
 #### Quick virtualenv setup
-1. Make sure you have installed ```python``` and ```pip```:
-
+1. Make sure you have installed ```python``` and ```pip```: 
 ```sudo apt update && sudo apt install python3-pip``` 
 
 2. Install virtualenv
