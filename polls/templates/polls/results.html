@@ -3,11 +3,15 @@
 
 <h1>{{ question.question_text }}</h1>
 
-<ul>
+<div class="container">
+<div class="row">
+<ul class="list-group">
 {% for choice in question.choice_set.all %}
-    <li>{{ choice.choice_text }} -- {{ choice.votes }} vote{{ choice.votes|pluralize }}</li>
+    <li class="list-group-item">{{ choice.choice_text }} - {{ choice.votes }} vote{{ choice.votes|pluralize }}</li>
 {% endfor %}
 </ul>
+</div><br>
+<a href="{% url 'polls:detail' question.id %}" class="btn btn-primary">Vote again?</a>
 
-<a href="{% url 'polls:detail' question.id %}">Vote again?</a>
+</div>
 {% endblock %}
