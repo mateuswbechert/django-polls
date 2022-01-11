@@ -1,3 +1,21 @@
+.page-header {
+    background-color: #cecece;
+    margin-top: 0;
+    padding: 2px 2px 2px 2px;
+}
+
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+    font-size: 36pt;
+    text-decoration: none;
+}
+
 body {
-    background: white url("images/background.jpg") no-repeat;
+    background: #34ae40 url("images/background.jpg") no-repeat; 
+    background-position-y: top;
+    height: 540px;
+    background-size: cover;
+    position: relative;
 }
